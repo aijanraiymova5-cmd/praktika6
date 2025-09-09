@@ -1,0 +1,166 @@
+/* .body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* .card-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+
+.update {
+    background-color: red;
+}
+
+.delete {
+    background-color: green;
+} */
+
+/* .card-btns{
+        gap: 50px;
+        box-shadow: none;
+    }
+    .update{
+        border-radius: 8px;
+        border: 1px solid white;
+        color: white;
+        background-color: green;
+        width: 80px;
+        height: 30px;
+    }
+
+    .delete{
+        border-radius: 8px;
+        border: 1px solid white;
+        color: white;
+        background-color: red;
+        width: 80px;
+        height: 30px;
+    }
+    .card-text{
+      display: flex;
+        justify-content: space-between;
+     
+     
+    }  */
+
+
+
+
+    /*----------------------------*/
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #d8d5d5;
+            background-image:url(https://img.freepik.com/premium-photo/realistic-worn-red-brick-background_326229-33.jpg) ;
+            height: 100vh;
+            background-repeat: repeat-y;
+            background-size: cover;
+    }
+    .result {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+      width: 1500px;
+      margin: 0 auto;
+      /* background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210917/pngtree-background-red-brick-with-simple-texture-image_900845.jpg) ; */
+  
+    }
+    .list:hover{
+        transform: scale(1.1);
+
+    }
+    .list {
+      background: #edeee8;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(75, 48, 48, 0.1);
+      padding: 15px;
+      text-align: center;
+          transition: 0.6s all ease;
+    }
+    
+    .list img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      position: relative;
+    }
+    .list h1 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .list h2 {
+      font-size: 16px;
+      color: green;
+      margin: 5px 0;
+    }
+    .list p {
+      font-size: 14px;
+      color: #555;
+    }
+    .list h5 {
+      font-size: 12px;
+      color: #888;
+    }
+
+    .card1 button{
+        gap: 50px;
+        box-shadow: none;
+         border-radius: 8px;
+        border: 1px solid white;
+        color: white;
+        background-color: blue;
+        width: 200px;
+        height: 30px;
+    }
+    .card2{
+        width: 50px;
+        height: 50px;
+        border: 1px solid green;
+        position: absolute;
+        margin-top: -700px;
+        border-radius: 50%;
+    }
