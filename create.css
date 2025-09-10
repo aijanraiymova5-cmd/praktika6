@@ -1,0 +1,32 @@
+.card{
+    margin: 20px auto;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px black;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 15px;
+ 
+
+}
+.create button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 50px 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
